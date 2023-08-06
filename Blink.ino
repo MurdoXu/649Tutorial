@@ -1,4 +1,3 @@
-
 // Teensy 2.0 has the LED on pin 11
 const int ledPin = 11;
 
