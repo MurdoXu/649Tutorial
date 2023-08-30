@@ -1,0 +1,4 @@
+import paho.mqtt.publish as publish
+// The AWS public ip address for this time in instances is 3.106.170.70
+publish.single("ifn649", "Hello World", hostname="3.106.170.70")
+print("Done")
