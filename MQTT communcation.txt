@@ -1,0 +1,5 @@
+//Test communication: Open two terminals and run the below commands:
+//In terminal 1
+mosquitto_sub -h localhost -t “test”
+//In terminal 2
+mosquitto_pub -h localhost -t “test” -m "hello world"
