@@ -1,0 +1,11 @@
+Login with SSH
+//my user name set to murdo
+ssh murdo@raspberrypi.local
+//enter password
+
+//inside the ssh mode
+//Run raspi-config in a terminal window
+sudo raspi-config
+//Enable VNC : Interface Options > I3 VNC > Yes
+//Setup Resolution : Display Options > D5 VNC Resolution > Select resolution
+//Finish setting
